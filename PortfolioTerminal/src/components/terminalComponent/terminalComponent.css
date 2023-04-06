@@ -1,7 +1,5 @@
 .terminal{
     font-family: 'JetBrains Mono', monospace;
-    
-    /* font-family: 'Inter', sans-serif; */
 }
 .terminal__header {
     position: fixed;
@@ -47,4 +45,31 @@ ol {
     font-family: 'JetBrains Mono', monospace;
     font-size: 0.8rem;
     line-height: 17px;
+}
+.comment {
+    color: #247a24;
+}
+.keyword {
+    color: #ff0000;
+}
+a {
+    color: #00ff00;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+.navigation:hover {
+    background-color: #ffffff;
+    cursor: pointer;
+}
+li:hover {
+    background-color: #000000;
+}
+/* [data-status="empty"] {
+    opacity: 0;
+    transition: all 1s; */
+/* } */
+[data-status="visable"] {
+    opacity: 1;
 }
